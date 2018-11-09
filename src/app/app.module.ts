@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
@@ -13,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BreadcrumpComponent } from './components/breadcrump/breadcrump.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { BreadcrumpComponent } from './components/breadcrump/breadcrump.componen
     ProjectsComponent,
     TechnologyComponent,
     FooterComponent,
-    BreadcrumpComponent
+    BreadcrumpComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
