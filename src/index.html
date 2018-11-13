@@ -46,7 +46,7 @@
 			$('#tabConOne .filterVal').val('invoice');
 			$('#tabConOne .filterVal').click();
 			
-			$(document).on('click', '.navbar-toggle', function () {
+			$('.navbar-toggle').on('click', function () {
 				$('aside.left-panel').toggleClass('collapsed');
 			});
 			
@@ -58,7 +58,7 @@
 					$("aside.left-panel nav.navigation > ul > li").removeClass('active');
 					if (!$(this).next().is(":visible")) {
 						$(this).next().slideToggle(300, function () {
-							//$("aside.left-panel:not(.collapsed)").getNiceScroll().resize();
+							$("aside.left-panel:not(.collapsed)").getNiceScroll().resize();
 						});
 						$(this).closest('li').addClass('active');
 					}
