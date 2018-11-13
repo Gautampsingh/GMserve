@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -13,6 +14,7 @@ import { TechnologyComponent } from './components/technology/technology.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { BreadcrumpComponent } from './components/breadcrump/breadcrump.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { HeaderComponent } from './components/header/header.component';
     TechnologyComponent,
     FooterComponent,
     BreadcrumpComponent,
-    HeaderComponent
+    HeaderComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
