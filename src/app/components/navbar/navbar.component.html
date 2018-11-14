@@ -1,41 +1,29 @@
-<!-- Aside Start-->
-<aside class="left-panel">
-    <div class="logo">
-      <a href="javascript:void(0)" class="logo-expanded" style="text-decoration:none;">
-        <i class="ion-social-buffer"></i>
-        <span class="nav-label">GMserve</span>
-      </a>
-    </div>
-    <!-- Navbar Start -->
-    <nav class="navigation">
-      <ul class="list-unstyled">
-        <li class="active"><a href="javascript:void(0)"><i class="zmdi zmdi-view-dashboard"></i> <span class="nav-label">My
-              Menu</span></a></li>
-        <li class="has-submenu"><a href="#"><i class="zmdi zmdi-email"></i> <span class="nav-label">Projects</span><span
-              class="menu-arrow"></span></a>
-          <ul class="list-unstyled">
-            <li><a href="javascript:void(0)">Project One</a></li>
-            <li><a href="javascript:void(0)" (click)="subMenuWorkflow()">Project Two</a></li>
-            <li><a href="javascript:void(0)">Project Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#"><i class="zmdi zmdi-format-underlined"></i> <span class="nav-label">AboutMe</span>
-            <!--span class="menu-arrow"></span--></a></li>
-        <li class="has-submenu"><a href="#"><i class="zmdi zmdi-album"></i> <span class="nav-label">Technologies</span>
-            <!--span class="badge bg-warning">New</span--></a></li>
-        <li class="has-submenu"><a href="#"><i class="zmdi zmdi-collection-text"></i> <span class="nav-label">Contact</span>
-            <!--span class="menu-arrow"></span--></a></li>
-      </ul>
-    </nav>
-  </aside>
-<!-- Aside Ends-->
-<section class="content">
-  <app-header></app-header>
-  <!-- Page Content Start -->
-  <div class="container-fluid">
-    <div class="row">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</section>
-<!-- HTML Menu ends -->
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">GMserve</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#team">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>

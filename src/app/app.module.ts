@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BreadcrumpComponent } from './components/breadcrump/breadcrump.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { ServicesComponent } from './components/services/services.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     FooterComponent,
     BreadcrumpComponent,
     HeaderComponent,
-    SidenavComponent
+    SidenavComponent,
+    ServicesComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
